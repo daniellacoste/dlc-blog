@@ -1,6 +1,6 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
 
-# leerob.io
+# daniellacoste.com
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [Postgres](https://vercel.com/postgres)
@@ -14,8 +14,7 @@
 This application requires Node.js v18.17+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
+git clone 
 bun install
 bun run setup # Remove all of my personal information
 bun dev

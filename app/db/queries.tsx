@@ -48,33 +48,17 @@ export async function getViewsCount(): Promise<
   `;
 }
 
-export const getLeeYouTubeSubs = cache(
+export const getYouTubeSubs = cache(
   async () => {
     let response = await yt.channels.list({
-      id: ['UCZMli3czZnd1uoc1ShTouQw'],
+      id: ['UCWINRRXXRKdSG0tg0M1u1FQ'],
       part: ['statistics'],
     });
 
     let channel = response.data.items![0];
     return Number(channel?.statistics?.subscriberCount).toLocaleString();
   },
-  ['leerob-youtube-subs'],
-  {
-    revalidate: 3600,
-  }
-);
-
-export const getVercelYouTubeSubs = cache(
-  async () => {
-    let response = await yt.channels.list({
-      id: ['UCLq8gNoee7oXM7MvTdjyQvA'],
-      part: ['statistics'],
-    });
-
-    let channel = response.data.items![0];
-    return Number(channel?.statistics?.subscriberCount).toLocaleString();
-  },
-  ['vercel-youtube-subs'],
+  ['daniellacoste-youtube-subs'],
   {
     revalidate: 3600,
   }

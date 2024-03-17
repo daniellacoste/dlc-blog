@@ -8,17 +8,17 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://daniellacoste.com'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Daniel LaCoste',
+    template: '%s | Daniel LaCoste',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Support proffesional, design engineer in training, hobbyist photographer',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Daniel LaCoste',
+    description: 'Support proffesional, design engineer in training, hobbyist photographer',
+    url: 'https://daniellacoste.com',
+    siteName: 'Daniel LaCoste',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Daniel LaCoste',
     card: 'summary_large_image',
   },
   verification: {

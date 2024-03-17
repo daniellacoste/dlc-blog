@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
           flexDirection: 'column',
           alignItems: 'flex-start',
           justifyContent: 'center',
-          backgroundImage: 'url(https://leerob.io/og-bg.png)',
+          backgroundImage: 'url(https://daniellacoste.com/img/photography/hi-res/leaf.jpg)',
         }}
       >
         <div
@@ -43,8 +43,8 @@ export async function GET(req: NextRequest) {
       </div>
     ),
     {
-      width: 1920,
-      height: 1080,
+      width: 2816,
+      height: 1880,
       fonts: [
         {
           name: 'Kaisei Tokumin',
